@@ -48,6 +48,7 @@
   .photo-grid-container {
     display: flex;
     justify-content: center;
+    background-color: rgb(113, 236, 113);
     /* background-image: url("images/bg.jpg"); */
   }
   
@@ -58,6 +59,8 @@
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
+    background-color:rgb(122, 214, 191);
+    ;
     /* background-color: blueviolet; */
     
   
@@ -70,6 +73,7 @@
   padding:10px;
   align-content: center;
   border-style: solid;
+  background-color: white;
   /* display: block; */
   }
   /* .first-item{
