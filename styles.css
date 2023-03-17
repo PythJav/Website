@@ -6,14 +6,16 @@
   
   .menu-container {
     color: #fff;
-    background-color: #5995DA;  /* Blue */
+    background-color: white;  /* Blue */
     padding: 20px 0;
     display:flex;
     justify-content: center;
   }
   
   .menu {
+    background-color: #5995DA;
     border: 1px solid #fff;
+    /* min-height:100%; */
     width: 900px;
     display: flex;
     justify-content: space-around;
@@ -30,30 +32,34 @@
     /* background-color: #cf89c4; */
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     font-size: 70px;
+  
   }
   .header-container {
     color: #5995DA;
-    background-color: #d6fee3;
+    background-color: white;
     display: flex;
     justify-content: center;
   }
   
   .header {
+    background-image: url(images/bg.png);
     width: 900px;
     height: 300px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
   }
   .photo-grid-container {
     display: flex;
     justify-content: center;
-    background-color: rgb(113, 236, 113);
+    background-color:white;
     
     /* background-image: url("images/bg.jpg"); */
   }
   
   .photo-grid {
+    /* background-image: url(images/bdbg.jpg); */
+    /* need to have image have transparent background */
     width: 900px;
     display: flex;
     flex-wrap: wrap;
@@ -71,7 +77,7 @@ div>.photo-grid-item{
   height: 300px;
 }
   
-  div > img{
+  img{
     max-width: 100%;
   max-height: 100%;
   object-fit: contain;
@@ -87,10 +93,11 @@ div>.photo-grid-item{
     order:-1;
   } */
   
-.social,.subscribe{
-    align-self: flex-end;
+.social{
+  flex:1;
+;
     
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 .fit{
   height: 100px;
@@ -107,15 +114,21 @@ div>.photo-grid-item{
     height: 200px;
     flex: 1;
   }
-  .footer-three {
+  /* .footer-three {
     flex: 2;
-  }
-  .footer-one,
+  } */
+  /* .footer-one,
 .footer-three {
   background-color: #5995DA;
   flex: initial;
   width: 300px;
-}
+} */
 .signup{
     margin-left: auto;
+}
+.bg{
+ 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
