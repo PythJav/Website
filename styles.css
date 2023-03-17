@@ -58,13 +58,13 @@
   }
   
   .photo-grid {
-    /* background-image: url(images/bdbg.jpg); */
+    background-image: url(images/bdbg.jpg);
     /* need to have image have transparent background */
     width: 900px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    background-color:white;
+    /* background-color:white; */
     /* justify-content: center; */
     /* background-color: blueviolet; */
     
